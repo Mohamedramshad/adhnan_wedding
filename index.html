@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b3023">
+  <meta name="description" content="You are warmly invited to celebrate the wedding of Adhnan and Bismi on 26 December 2026 at Karayil Plaza, Orumanayur.">
+  <title>Adhnan & Bismi | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="cover" id="cover">
+    <div class="cover-frame">
+      <span class="cover-kicker">A WEDDING INVITATION</span>
+      <div class="cover-monogram">A <i>&</i> B</div>
+      <div class="cover-line"></div>
+      <p class="cover-names">ADHNAN <span>&</span> BISMI</p>
+      <p class="cover-date">26 DECEMBER 2026 <b>·</b> ORUMANAYUR</p>
+      <button class="open-button" id="openButton">OPEN INVITATION <span>↗</span></button>
+      <p class="cover-note">With the blessings of Allah and our families</p>
+    </div>
+  </div>
+
+  <audio id="music" src="saiyaara-peaceful-bgm.mp3" loop preload="none"></audio>
+  <button class="music-button" id="musicButton" aria-label="Play background music" aria-pressed="false"><span class="music-symbol">♫</span><span id="musicText">SOUND OFF</span></button>
+
+  <header class="topbar">
+    <a href="#home" class="brand">A<span>&</span>B</a>
+    <nav><a href="#invitation">THE INVITATION</a><a href="#details">THE DETAILS</a><a href="#venue">THE VENUE</a></nav>
+    <a class="top-date" href="#details">26.12.2026</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="eyebrow reveal">IN THE NAME OF ALLAH</p>
+        <div class="ornament reveal" aria-hidden="true"><span></span><b>✧</b><span></span></div>
+        <p class="hero-intro reveal">Together with their families</p>
+        <h1 class="reveal">Adhnan <em>&</em><br>Bismi</h1>
+        <p class="hero-sub reveal">request the pleasure of your company<br>as they begin their life together.</p>
+        <a href="#invitation" class="scroll-cue">DISCOVER THE INVITATION <span>↓</span></a>
+      </div>
+      <div class="hero-side-note">A DAY TO REMEMBER <span>—</span> 2026</div>
+    </section>
+
+    <section class="invitation-section section-pad" id="invitation">
+      <div class="section-heading reveal"><span class="eyebrow">WITH JOY IN OUR HEARTS</span><h2>The Invitation</h2><div class="small-ornament">✧</div></div>
+      <div class="invite-card reveal">
+        <div class="invite-inner">
+          <p class="invite-bismillah">IN THE NAME OF ALLAH</p>
+          <div class="parents">
+            <p>S/o Late Mr. Shamsudheen &amp; Mrs. Zuhara</p>
+            <span>Vattachira House, Venmenad, Pavaratty – Thrissur</span>
+          </div>
+          <h3>ADHNAN</h3>
+          <div class="heart-divider"><span></span><b>♥</b><span></span></div>
+          <h3 class="bride-name">BISMI</h3>
+          <div class="parents bride-parents">
+            <p>D/o Mr. A.M Nujum &amp; Mrs. Sheeba</p>
+            <span>Shabeer Manzil, (Aaluvila) Kulamuttom – TVM</span>
+          </div>
+          <div class="leaf-divider" aria-hidden="true">❧ <span>❧</span></div>
+          <p class="invite-message">Together with their families, invite you to<br>celebrate their wedding</p>
+          <div class="invite-date"><span>DECEMBER</span><div><b>SATURDAY</b><strong>26</strong><b>AT 12.00 PM</b></div><small>2026</small></div>
+          <p class="invite-venue">KARAYIL PLAZA ORUMANAYUR</p>
+        </div>
+      </div>
+      <p class="section-footnote reveal">Your presence will make our celebration even more special.</p>
+    </section>
+
+    <section class="countdown-section section-pad" id="details">
+      <div class="countdown-copy reveal"><span class="eyebrow">SAVE THE DATE</span><h2>Until our<br><em>special day.</em></h2><p>One beautiful day. A lifetime of memories.</p></div>
+      <div class="countdown-wrap reveal">
+        <div class="countdown">
+          <div><strong id="days">000</strong><span>DAYS</span></div><i></i>
+          <div><strong id="hours">00</strong><span>HOURS</span></div><i></i>
+          <div><strong id="minutes">00</strong><span>MINUTES</span></div><i></i>
+          <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+        </div>
+        <p class="date-caption">SATURDAY, 26 DECEMBER 2026 <span>·</span> 12:00 PM</p>
+        <button class="calendar-button" id="calendarButton">＋ ADD TO CALENDAR</button>
+      </div>
+    </section>
+
+    <section class="venue-section section-pad" id="venue">
+      <div class="venue-card reveal">
+        <span class="eyebrow">CELEBRATE WITH US</span>
+        <h2>Meet us<br><em>at the venue.</em></h2>
+        <div class="venue-rule"><span></span>✧<span></span></div>
+        <h3>Karayil Plaza</h3>
+        <p>Orumanayur, Thrissur, Kerala</p>
+        <p class="venue-time">SATURDAY · 26 DECEMBER 2026<br>12.00 PM</p>
+        <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Karayil+Plaza+Orumanayur" target="_blank" rel="noopener">GET DIRECTIONS <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="footer-mark">A <i>&</i> B</div><p>ADHNAN &amp; BISMI</p><span>WITH LOVE AND GRATITUDE · 26.12.2026</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
